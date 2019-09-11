@@ -1,6 +1,6 @@
 # Http-Pong
 
-This is a single app to play with docker exposing ports.
+This is a simple app to play with docker exposing ports.
 
 ## Usage
 
