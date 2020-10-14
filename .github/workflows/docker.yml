@@ -11,4 +11,4 @@ jobs:
       run: export
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag http-pong:$(git rev-list HEAD | head -n 1)
+      run: docker build . --file Dockerfile --tag "http-pong:$GITHUB_SHA"
