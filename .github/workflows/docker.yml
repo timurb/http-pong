@@ -8,8 +8,6 @@ jobs:
 
     steps:
     - name: debug
-      env:
-        SUPER_SECRET: ${{ secrets.SUPER_SECRET }}
       run: export
     - uses: actions/checkout@v2
     - name: Build the Docker image
